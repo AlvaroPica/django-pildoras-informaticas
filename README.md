@@ -1,7 +1,15 @@
 # django-docker-compose-deploy
 
-
 This repo was created by following the tutorial of London App Developer on YouTube (https://www.youtube.com/watch?v=mScd-Pc_pX0&ab_channel=LondonAppDeveloper)
+
+
+This repo buils a containerized app using three services:
+
+- App developed in Django
+- PostgreSQL 
+- Proxy (Nginx) to manage static and media files.
+
+## Troubleshooting
 
 For issues about permissions try the following in Ubuntu:
 
