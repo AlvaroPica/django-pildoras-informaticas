@@ -1,0 +1,10 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.inheritEnv": false,
+    "redhat.telemetry.enabled": true,
+    "emmet.includeLanguages": {
+        "django-html": "html",
+   }
+
+}

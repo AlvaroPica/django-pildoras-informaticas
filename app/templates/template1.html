@@ -1,0 +1,30 @@
+<html>
+    <body>
+        
+        
+        {% include "header/barra.html" %}
+        <h1>
+            My first template
+        </h1>
+        <p> El nombre del profesor es {{nombre_persona|upper}} {{apellido_persona}} </p>
+        {% if nombre_persona == 'Juan' %}    
+        <p> El curso lo imparte el profesor titular </p>
+        {% else %}
+        <p> El profesor es un suplente </p>
+        {% endif %}
+        <br>
+        <p> La fecha es {{hora_actual.date}} </p>
+        <p><strong>Los temas son</strong></p>
+        <p>
+            <ul>
+            {% if temas %}
+                {% for elTema in temas %}
+                    <li>{{elTema|first|lower}}</li>
+                {% endfor %}
+            {% else %}
+                <p>No hay elementos que mostrar </p>
+            {% endif %}
+            </ul>
+        </p>
+    </body)
+</html>

@@ -1,7 +1,9 @@
 # django-docker-compose-deploy
 
-This repo was created by following the tutorial of London App Developer on YouTube (https://www.youtube.com/watch?v=mScd-Pc_pX0&ab_channel=LondonAppDeveloper)
+This repo was created by following different tutorials:
 
+- Django development (Spanish Course) pildorasinformaticas https://www.youtube.com/channel/UCdulIs-x_xrRd1ezwJZR9ww
+- Deployment in Docker and AWS (English Course): London App Developer on YouTube (https://www.youtube.com/watch?v=mScd-Pc_pX0&ab_channel=LondonAppDeveloper)
 
 This repo buils a containerized app using three services:
 

@@ -19,9 +19,17 @@ from django.conf.urls.static import static
 from django.conf import settings
 import os
 
+from core.views import calculate_age, dame_fecha, saludo, despedida, curso_c, curso_py
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
+    path('saludo/', saludo),
+    path('nosveremos/', despedida),
+    path('fecha/', dame_fecha),
+    path('edades/<int:actual_age>/<int:year>', calculate_age),
+    path('curso_c', curso_c),
+    path('curso_py', curso_py)
+    ]
 
 if settings.DEBUG:
     urlpatterns += static(
